@@ -21,10 +21,6 @@ header {
     background: transparent;
 }
 
-body {
-    background: red;
-}
-
 .logo {
     font-size: 30px;
     font-weight: 700;
@@ -54,4 +50,86 @@ body {
     z-index: 10001;
     cursor: pointer;
     display: none;
+}
+
+.coc {
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(245.59deg, #e9b31c, #e9b31c, #e9b31c);
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 2rem;
+}
+
+section {
+    padding: 0 19%;
+}
+
+.coc-text h5 {
+    font-size: 14px;
+    font-weight: 400px;
+    color: #360e0e;
+    margin-bottom: 40px;
+}
+
+.coc-text h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 90px;
+    line-height: 1;
+    color: #360e0e;
+    margin: 0 0 45px;
+}
+
+.coc-text h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #360e0e;
+    margin-bottom: 10px;
+}
+
+.coc-text p {
+    color: #360e0e;
+    font-size: 15px;
+    line-height: 1.9;
+    margin-bottom: 40px;
+}
+
+.coc-img img {
+    height: auto;
+}
+/* check up and down*/
+.coc-text a {
+    display: inline-block;
+    color: #fff;
+    background: #360e0e;
+    border: 2px solid transparent;
+    padding: 12px 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition: all .55s ease;
+}
+
+.coc-text a:hover {
+    background: transparent;
+    border: 2px solid #360e0e;
+    color: #360e0e;
+    transform: translateX(8px);
+}
+
+.coc-text a.ctaa {
+    color: #360e0e;
+    background: transparent;
+    border: 2px solid #360e0e;
+    margin-left: 20px;
+}
+
+.coc-text a.ctaa i {
+    vertical-align: middle;
+    margin-right: 5px;
 }
